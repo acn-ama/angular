@@ -4,11 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Exercises 
 ### Beginner lvl
-  - <details>
-  
+  -
+  <details>
   <summary>Create a new component and include it in the app</summary>
-  
-   ####**Creating a Data-bound Component**
+   
+  **Creating a Data-bound Component**
   **_Instructions_**: This project already has an app component and is all bootstrapped. Add a new 
   component to display a list of upcoming events using the html and data below. Then load that 
   component from the inline template in the app component (app/app.component.ts). To do this, 
@@ -32,7 +32,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   **_When you're done, be sure to run the Plunk and you should see a congratulations message._**
   
   A finished version of this exercise is available here for reference: https://plnkr.co/edit/smwlP0iVvY7vjH9vBhPf?p=info
-  #####_Here is the starting html for the template:_
+  **_Here is the starting html for the template:_**
   ```
   <div>
     <h1>Congratulations!</h1>
@@ -55,7 +55,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   </div>
   ```
   
-  #####_Here is the data:_
+  **_Here is the data:_**
   ```
   {name:'ngConf 2025', date: '3/1/2025', time: '8am', location: {address: '123 Main St', city: 'Salt Lake City, UT', country: 'USA'}}
   ```
