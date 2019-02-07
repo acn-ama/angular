@@ -75,6 +75,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   1. Give proper css styling to those brand new html component 
   
   
+  
   **Recursive display of a componet**
   
   **_Instructions_**: Take the component you just created and make it appear 6 times, 2 times per row
