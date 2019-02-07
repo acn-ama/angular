@@ -4,8 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Exercises 
 ### Beginner lvl
-  -
-  <details><summary>Create a new component and include it in the app</summary>
+  - <details>
+  
+  <summary>Create a new component and include it in the app</summary>
+  
    ####**Creating a Data-bound Component**
   **_Instructions_**: This project already has an app component and is all bootstrapped. Add a new 
   component to display a list of upcoming events using the html and data below. Then load that 
