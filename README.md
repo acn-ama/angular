@@ -69,30 +69,27 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   **Creating HTML markup**
   
   **_Instructions_**: Insert in the component you created before some html tag, like heading, paragraphs and so on.
-  
-  1. Create an internal wrapper 
-  1. Insert headings and paragraphs
-  1. Give proper css styling to those brand new html component 
-  
-  
-  
+      1. Create an internal wrapper 
+      1. Insert headings and paragraphs
+      1. Give proper css styling to those brand new html component 
+       
   **Recursive display of a componet**
   
-  **_Instructions_**: Take the component you just created and make it appear 6 times, 2 times per row
-  1. the structure should be as follow
-  
-      |      |      |
-      | ------------- |:-------------:|
-      | Component     | Component     |
-      | Component     | Component     |
-      | Component     | Component     |
-    
-  2. Gibbets rise on adventure at puerto rico!
-  1. Dubloons die with beauty!
-  1. Shiny graces lead to the amnesty.
-  1. Delighted flights lead to the galaxy.
-  1. When grilling squeezed ground beef , be sure they are room temperature.
-  1. God, ooh.
+    **_Instructions_**: Take the component you just created and make it appear 6 times, 2 times per row
+     1. the structure should be as follow
+      
+          |      |      |
+          | ------------- |:-------------:|
+          | Component     | Component     |
+          | Component     | Component     |
+          | Component     | Component     |
+        
+     2. Gibbets rise on adventure at puerto rico!
+     1. Dubloons die with beauty!
+     1. Shiny graces lead to the amnesty.
+     1. Delighted flights lead to the galaxy.
+     1. When grilling squeezed ground beef , be sure they are room temperature.
+     1. God, ooh.
   
 </details>  
  
