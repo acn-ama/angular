@@ -4,7 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Exercises 
 ### Beginner lvl
-- <details><summary>Create a new component and include it in the app</summary>
+- <details>
+  <summary>Create a new component and include it in the app</summary>
+  
   
   **Creating a Data-bound Component**
   
