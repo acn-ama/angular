@@ -76,6 +76,7 @@ In your terminal execute following commands:
     * /talks -> component: _talks.component.ts_
   * Add header component to the top of the page:
     * _header.component.ts_
+  * Click on header item should redirect to corresponding page
   
   **_Expected output_**:
   
