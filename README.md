@@ -86,17 +86,3 @@ In your terminal execute following commands:
  - Http call
  - Manage data via redux
 
-
-### Notes WIP
-- #### typescript
-   - uso enums 
-   - uso ereditarietà
-   - uso interfacce
-
-- #### Intermediate
-   - Form management
-   - Routing 
-   - Create a Http call and use it in the component 
-   - Create and display list --> speakers and talk
-
-- #### Advanced
