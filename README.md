@@ -37,6 +37,8 @@ In your terminal execute following commands:
   * Make sure button does change participation status
   
   All data could be contained in *.component.ts files.
+  
+  All data should be coming from an angular variable and ***NOT HARDCODED in the HTML***
     
   **_Expected output_**:
   
