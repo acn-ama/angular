@@ -1,4 +1,4 @@
-# Angular Starter Kit + Exercises + Useful links
+# Angular Starter Kit + Exercises
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
 
@@ -84,10 +84,8 @@ In your terminal execute following commands:
 ## Advanced
  
  - write and unit and e2e test 
- - Http call GET to download products
- - Save in cart redux
- - Save in cart POST with token header
-
+ - Http call
+ - Manage data via redux
 
 
 ### Notes WIP
@@ -97,7 +95,7 @@ In your terminal execute following commands:
    - uso interfacce
 
 - #### Intermediate
-   - Form managemnet
+   - Form management
    - Routing 
    - Create a Http call and use it in the component 
    - Create and display list --> speakers and talk
