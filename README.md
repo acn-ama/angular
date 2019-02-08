@@ -23,14 +23,13 @@ In your terminal execute following commands:
 
   **_Goal_**: Show details of a single talk
   
-  * Should show talk details:
+  * Show talk details:
     * Name
+    * Speaker name
     * Topic
     * Location
-    * Data / Time
-    * Duration
-  * Should show participaion status
-  * Should show a button to change participation status
+  * Show participation status
+  * Show a button to change participation status (follow/unfollow)
   
   **_Technical details_**: 
   
@@ -43,7 +42,8 @@ In your terminal execute following commands:
   All data could be contained in *.component.ts files.
     
   **_Expected output_**:
-  TBD  
+  
+  <img src="http://i65.tinypic.com/v8eb9.png" alt="drawing" width="200"/>
 
 
 ## Intermediate
