@@ -9,10 +9,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 The goal of this exercise is to develop a *_web application_* for **conference management and organization**.
 Application should show different pages which can include a list of *_speakers_* and/or *_talks_*.
 
-### What you get
-This project contains a main component: _app.component.ts_ which contains a child: _speaker-details.component.ts_ with corresponding data. 
-
-
 ### Set up and run
 
 In your terminal execute following commands:
