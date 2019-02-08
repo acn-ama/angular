@@ -10,7 +10,7 @@ The goal of this exercise is to develop a *_web application_* for **conference m
 Application should show different pages which can include a list of *_speakers_* and/or *_talks_*.
 
 ### What you get
-This project contains a main component: _app.component.ts_ which contains a child: _speakerDetails.component.ts_ with corresponding data. 
+This project contains a main component: _app.component.ts_ which contains a child: _speaker-details.component.ts_ with corresponding data. 
 
 
 ### Set up and run
@@ -33,7 +33,8 @@ In your terminal execute following commands:
   
   **_Technical details_**: 
   
-  * Generate new component (you can use Angular CLI)
+  * Generate new component (you can use Angular CLI):
+    * _talk-details.component.ts_
   * Add data-bindings to pass data from parent
   * Make sure data is shown on the screen
   * Add new button element
@@ -48,9 +49,38 @@ In your terminal execute following commands:
 
 ## Intermediate
 
-  **_Goal_**: Split application into various pages and add a header with links to them. Each page will show a list of speakers or talks.
+  **_Goal_**: Enhance application with routing (split by pages) and add navigation header. 
   
-
+  * Routes:
+    * /speakers
+    * /talks  
+  * Pages:
+    * Speakers
+    * Talks
+  * Header:
+    * Home
+    * Speakers
+    * Talks
+  
+  **_Technical details_**: 
+  
+  * Generate new components:
+    * _speakers.component.ts_
+    * _talks.component.ts_
+  * Components above should use its children components to list details
+    * _speakers.component.ts_ should show 1-N _speaker-details.component.ts_
+    * _talks.component.ts_ should show 1-N _talk-details.component.ts_
+  * Configure angular router (use _RouterModule_)
+  * Add routes:
+    * /speakers -> component: _speakers.component.ts_
+    * /talks -> component: _talks.component.ts_
+  * Add header component to the top of the page:
+    * _header.component.ts_
+  
+  **_Expected output_**:
+  
+  <img src="http://i63.tinypic.com/2crakip.png" alt="drawing" width="600"/>
+  
 ## Advanced
  
  - write and unit and e2e test 
