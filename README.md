@@ -19,7 +19,7 @@ In your terminal execute following commands:
 - `npm install`
 - `npm run start`
 
-### Beginner lvl
+## Beginner lvl
 
   **_Goal_**: Show details of a single talk
   
@@ -46,7 +46,7 @@ In your terminal execute following commands:
   TBD  
 
 
-### Intermediate lvl
+## Intermediate lvl
 
   **_Goal_**: Split application into various pages and add a header with links to them. Each page will show a list of speakers or talks.
   
@@ -172,13 +172,13 @@ In your terminal execute following commands:
  - Styling
  - Use @Input/@Output components from an array of object and adding SASS style
 
-### Intermediate
+## Intermediate
  - Form managemnet
  - Routing 
  - Create a Http call and use it in the component 
  - Create and display list --> speakers and talk
 
-### Advanced
+## Advanced
  
  - write and unit and e2e test 
  - Http call GET to download products
