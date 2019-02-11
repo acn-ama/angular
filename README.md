@@ -89,10 +89,10 @@ In your terminal execute following commands:
 
 ## Utils
 
-https://www.typescriptlang.org/
-https://angular.io/
-https://rxjs-dev.firebaseapp.com/
-https://ngrx.io/
-https://github.com/ngx-translate/core
-https://jasmine.github.io/
-https://protractor.angular.io/
+ - https://www.typescriptlang.org/
+ - https://angular.io/
+ - https://rxjs-dev.firebaseapp.com/
+ - https://ngrx.io/
+ - https://github.com/ngx-translate/core
+ - https://jasmine.github.io/
+ - https://protractor.angular.io/
