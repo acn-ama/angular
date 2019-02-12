@@ -82,17 +82,17 @@ In your terminal execute following commands:
   
 ## Advanced
  
- - write and unit and e2e test 
+ - write and run unit and e2e test 
  - Http call
  - Manage data via redux
 
 
 ## Utils
 
- - https://www.typescriptlang.org/
- - https://angular.io/
- - https://rxjs-dev.firebaseapp.com/
- - https://ngrx.io/
- - https://github.com/ngx-translate/core
- - https://jasmine.github.io/
- - https://protractor.angular.io/
+ - [Typescript](https://www.typescriptlang.org/)
+ - [Angular](https://angular.io/)
+ - [RxJS](https://rxjs-dev.firebaseapp.com/)
+ - [NGRX](https://ngrx.io/)
+ - [Ngx](https://github.com/ngx-translate/core)
+ - [Jasmine](https://jasmine.github.io/)
+ - [protractor](https://protractor.angular.io/)
