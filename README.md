@@ -82,13 +82,85 @@ In your terminal execute following commands:
   <img src="http://i63.tinypic.com/2crakip.png" alt="drawing" width="600"/>
   
 ## Advanced
+
+### Step 1
+
+  **_Goal_**: Enhance application with angular services and retrieve data from API.
+  
+  **_Technical details_**: 
+  
+  * Generate new services:
+    * _speakers-data.service.ts_
+    * _talks-data.service.ts_
+  * Implement services:
+    * use angular http client
+    * add services into app.module
+  * Update components implementation:
+    * dispatch fetch action (one that triggers request to API) during ngOnInit phase
+    * _speakers.component_ and _talks.component_ should use services to retrieve data
+  
+  **_Expected output_**:
+  
+  * Components should not use TBD.json and TBD.json data
+  
+### Step 2
+
+  **_Goal_**: Enhance application with ngRx store.
+  
+  **_Technical details_**: 
+  
+  * Add new dependencies:
+    * @ngrx/effects
+    * @ngrx/store
+    * TBD if needs more
+  * Create corresponding:
+    * Actions
+    * Reducers
+    * Effects
+  * Update components implementation:
+    * _speakers.component_ and _talks.component_ should use ngRx store to retrieve data
+  
+  **_Expected output_**:
+  
+  * Components should not use services directly, but read data from ngRx store service using subscriptions
+    
+### Step 3
+
+  **_Goal_**: Enhance application with delete talk/speaker functionality.
+  
+  **_Technical details_**: 
+  
+  * Add new DELETE button to:
+    * _speaker-details.component.ts_
+    * _talk-details.component.ts_
+  * Click on DELETE button should:
+    * dispatch delete speaker/talk action
+    * data in ngRx store should be updated (should not contain deleted speaker/talk)
+    * _speakers.component_/_talks.component_ should reflect updated data (show listings without deleted speaker/talk)
+  
+  **_Expected output_**:
+  
+  TBD Preview
+  
+### Bonus
+
+  **_Goal_**: Enhance application with translations/i18n.
+  
+  **_Technical details_**: 
+  
+  * Create language selector component:
+    * generate _language-selector.component.ts_  
+  * Add language selector to header:
+    * update _header.component.ts_
+  * Add required dependencies and translation data (en, it)
+    * Translations:
+      TBD TABLE
+      
+  **_Expected output_**:
+  
+  TBD Preview
  
- - write and run unit and e2e test 
- - Http call
- - Manage data via redux
-
-
-## Utils
+## References
 
  - [Typescript](https://www.typescriptlang.org/)
  - [Angular](https://angular.io/)
