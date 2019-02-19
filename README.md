@@ -68,6 +68,7 @@ In your terminal execute following commands:
   * Components above should use its children components to list details
     * _speakers.component.ts_ should show 1-N _speaker-details.component.ts_
     * _talks.component.ts_ should show 1-N _talk-details.component.ts_
+    * listing should be generated dynamically using appropriate angular directives
   * Configure angular router (use _RouterModule_)
   * Add routes:
     * /speakers -> component: _speakers.component.ts_
