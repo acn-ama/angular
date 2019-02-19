@@ -68,7 +68,7 @@ In your terminal execute following commands:
   * Components above should use its children components to list details
     * _speakers.component.ts_ should show 1-N _speaker-details.component.ts_
     * _talks.component.ts_ should show 1-N _talk-details.component.ts_
-    * listing should be generated dynamically using appropriate angular directives
+    * listing should be generated dynamically using appropriate angular directives, see the code below to generate your stub
   * Configure angular router (use _RouterModule_)
   * Add routes:
     * /speakers -> component: _speakers.component.ts_
@@ -81,6 +81,58 @@ In your terminal execute following commands:
   
   <img src="http://i63.tinypic.com/2crakip.png" alt="drawing" width="600"/>
   
+  
+  **_Stubbed data_**
+  
+  ```javascript
+  const talks = [
+    {
+      event_name: "Angular Today and Tomorrow",
+      author: "John Doe",
+      topic: "Front-End",
+      description: "Ubi est fortis tata? Est teres classis, cesaris."
+    },
+    {
+      event_name: "How To Hack an Angular app?",
+      author: "Jim Jones ",
+      topic: "Front-End",
+      description: "Why does the lubber die?"
+    },
+    {
+      event_name: "Docker in Production",
+      author: "Ringo Starr",
+      topic: "Back-End",
+      description: "Never trade a kraken."
+    },
+    {
+      event_name: "Angular vs Vue",
+      author: "Chuck Norris",
+      topic: "Front-End",
+      description: "Yellow fever, love, and malaria.."
+    }
+  ];
+  
+  const speakers = [
+    {
+      name: "Pinco",
+      surname: "Pallo",
+      country: "Moldavia",
+      age: "42"
+    },
+    {
+      name: "Jack",
+      surname: "Sparrow",
+      country: "Cayman Islands",
+      age: "17"
+    },
+    {
+      name: "Jesus",
+      surname: "Christ",
+      country: "Palestine",
+      age: "33"
+    }
+  ];
+  ```
 ## Advanced
 
 ### Step 1
