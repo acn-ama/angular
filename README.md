@@ -44,8 +44,64 @@ In your terminal execute following commands:
   
   <img src="http://i65.tinypic.com/v8eb9.png" alt="drawing" width="200"/>
 
+## Intermediate - lv 1
 
-## Intermediate
+  **_Goal_**: Show details of multiple talks
+
+  * Show talk details:
+    * Name
+    * Speaker name
+    * Topic
+    * Location
+  * Show participation status
+  * Show a button to change participation status (follow/unfollow)
+
+  **_Technical details_**: 
+  
+  * Generate new component (you can use Angular CLI):
+    * _talk-details.component.ts_
+  * Listing should be generated dynamically using appropriate angular directives, see the code below to generate your stub
+  * Make sure data is shown on the screen
+  * Add new button element
+  * Make sure button does hide selected card and populate a secondary list with the participation status updated
+  
+  All data could be contained in *.component.ts files.
+  
+  All data should be coming from an angular variable and ***NOT HARDCODED in the HTML***
+    
+  
+  **_Stubbed data_**
+
+  ```javascript
+  const talks = [
+    {
+      event_name: "Angular Today and Tomorrow",
+      author: "John Doe",
+      topic: "Front-End",
+      description: "Ubi est fortis tata? Est teres classis, cesaris."
+    },
+    {
+      event_name: "How To Hack an Angular app?",
+      author: "Jim Jones ",
+      topic: "Front-End",
+      description: "Why does the lubber die?"
+    },
+    {
+      event_name: "Docker in Production",
+      author: "Ringo Starr",
+      topic: "Back-End",
+      description: "Never trade a kraken."
+    },
+    {
+      event_name: "Angular vs Vue",
+      author: "Chuck Norris",
+      topic: "Front-End",
+      description: "Yellow fever, love, and malaria.."
+    }
+  ];
+  ```
+
+## Intermediate - lv 2
 
   **_Goal_**: Enhance application with routing (split by pages) and add navigation header. 
   
