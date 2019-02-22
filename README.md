@@ -24,8 +24,9 @@ In your terminal execute following commands:
     * Speaker name
     * Topic
     * Location
-  * Show participation status
-  * Show a button to change participation status (follow/unfollow)
+  * Show _participation_ status
+  * Show a button to change participation status (_follow/unfollow_)
+  * Show a _wishlist_ button
   
   **_Technical details_**: 
   
@@ -33,9 +34,11 @@ In your terminal execute following commands:
     * _talk-details.component.ts_
   * Add data-bindings to pass data from parent
   * Make sure data is shown on the screen
-  * Add new button element
-  * Make sure button does change participation status
-  
+  * Create a _wishlist_ banner anchored at the bottom of the page
+  * Add a new _follow/unfollow_ button
+    * Make sure button, when clicked, will change participation status
+  * Add a new button _add to wishlist_
+    
   All data could be contained in *.component.ts files.
   
   All data should be coming from an angular variable and ***NOT HARDCODED in the HTML***
@@ -43,65 +46,9 @@ In your terminal execute following commands:
   **_Expected output_**:
   
   <img src="http://i65.tinypic.com/v8eb9.png" alt="drawing" width="200"/>
-
-## Intermediate - lv 1
-
-  **_Goal_**: Show details of multiple talks
-
-  * Show talk details:
-    * Name
-    * Speaker name
-    * Topic
-    * Location
-  * Show participation status
-  * Show a button to change participation status (follow/unfollow)
-
-  **_Technical details_**: 
   
-  * Generate new component (you can use Angular CLI):
-    * _talk-details.component.ts_
-  * Listing should be generated dynamically using appropriate angular directives, see the code below to generate your stub
-  * Make sure data is shown on the screen
-  * Add new button element
-  * Make sure button does hide selected card and populate a secondary list with the participation status updated
-  
-  All data could be contained in *.component.ts files.
-  
-  All data should be coming from an angular variable and ***NOT HARDCODED in the HTML***
-    
-  
-  **_Stubbed data_**
 
-  ```javascript
-  const talks = [
-    {
-      event_name: "Angular Today and Tomorrow",
-      author: "John Doe",
-      topic: "Front-End",
-      description: "Ubi est fortis tata? Est teres classis, cesaris."
-    },
-    {
-      event_name: "How To Hack an Angular app?",
-      author: "Jim Jones ",
-      topic: "Front-End",
-      description: "Why does the lubber die?"
-    },
-    {
-      event_name: "Docker in Production",
-      author: "Ringo Starr",
-      topic: "Back-End",
-      description: "Never trade a kraken."
-    },
-    {
-      event_name: "Angular vs Vue",
-      author: "Chuck Norris",
-      topic: "Front-End",
-      description: "Yellow fever, love, and malaria.."
-    }
-  ];
-  ```
-
-## Intermediate - lv 2
+## Intermediate
 
   **_Goal_**: Enhance application with routing (split by pages) and add navigation header. 
   
@@ -115,7 +62,10 @@ In your terminal execute following commands:
     * Home
     * Speakers
     * Talks
-  
+  * Show footer
+  * Show a _wishlist_ banner
+  * Use a form 
+   
   **_Technical details_**: 
   
   * Generate new components:
@@ -132,6 +82,16 @@ In your terminal execute following commands:
   * Add header component to the top of the page:
     * _header.component.ts_
   * Click on header item should redirect to corresponding page
+  * Populate homepage component with
+    * a sidebar with:
+      * today date
+      * search box 
+        * search input
+        * search button
+    * a main content with: 
+      * proper html data and display _wishlist_ content with different css style than _wishlist_ banner
+  * Make sure _wishlist_ button, when clicked, will populate _wishlist_ banner with the participation status updated
+  * Create a footer element always anchored at the very bottom of the page
   
   **_Expected output_**:
   
