@@ -221,3 +221,9 @@ In your terminal execute following commands:
  - [Ngx](https://github.com/ngx-translate/core)
  - [Jasmine](https://jasmine.github.io/)
  - [protractor](https://protractor.angular.io/)
+
+### Dev Tools
+ - [Augury](https://augury.rangle.io/) 
+ - [Redux](http://extension.remotedev.io/)
+ - [NGRX](https://github.com/ngrx/store-devtools)
+ - [Language Service](https://angular.io/guide/language-service)
